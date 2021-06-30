@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient">
+
+    <Button
+        android:id="@+id/btn_permission_mon_frag"
+        android:layout_width="wrap_content"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton_theme"
+        android:text="Start Engine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_above="@+id/btn_letsdrive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_letsdrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:background="@drawable/mybutton_theme"
+        android:text="Lets have a Drive..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+</RelativeLayout>

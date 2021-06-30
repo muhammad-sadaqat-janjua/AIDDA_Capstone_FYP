@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient"
+    android:id="@+id/fragment_help">
+
+    <ImageView
+        android:id="@+id/logo_at_helpfrag"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="-12dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/HelpSectionHeading_at_Helpfrag"
+        android:layout_toRightOf="@id/logo_at_helpfrag"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Welcome to AIDDA\n Help Section!"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="85dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="26dp"
+        android:background="@color/black"
+        android:layout_toLeftOf="@id/HelpSectionHeading_at_Helpfrag"/>
+    <TextView
+        android:layout_marginTop="-10dp"
+        android:id="@+id/subheading_at_helpfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wanna learn to use?"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginLeft="26dp"
+        android:layout_below="@id/logo_at_helpfrag"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <View
+        android:id="@+id/section_1_at_helpfrag"
+        android:layout_below="@id/subheading_at_helpfrag"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/content_1_at_helpfrag"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="\u2022 This application detects the user face through android Camera.\n\u2022 We need Camera Permission to detect the drowsiness situations.\n\u2022 First of all, please provide the permissions by tapping the 'Start Engine' Button at main screen.\n\u2022 Now, tap on 'Lets have a Drive' button.\n\u2022 Now you just need to sit before this application in a manner that camera can detect your face.\n\u2022 You should must have sufficient light mechanisms in order for camera to detect your face.\n\u2022 If you have any quries, then write to us via Contact menu or at the details mentioned below.\n\u2022 Wish you a safe journey :)"
+        android:textSize="19sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="26dp"
+        android:layout_below="@id/section_1_at_helpfrag"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <View
+        android:id="@+id/section_2_at_helpfrag"
+        android:layout_below="@id/subheading_2_at_helpfrag"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/subheading_2_at_helpfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginLeft="26dp"
+        android:layout_below="@id/content_1_at_helpfrag"
+        />
+    <TextView
+        android:id="@+id/content_2_at_helpfrag"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="4dp"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M Sadaqat Janjua                   BSITF17M054\nIehtanab Safdar                       BSITF17M040\nEmail: mjanjua@asu.edu\nDepartment of Computer Science and IT University of Sargodha, 40100, Punjab, PK"
+        android:textSize="19sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:layout_marginLeft="26dp"
+        android:layout_below="@id/section_2_at_helpfrag"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+</RelativeLayout>

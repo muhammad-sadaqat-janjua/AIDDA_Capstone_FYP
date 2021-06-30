@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/splash_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provide us as much details as possible..."
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="14dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <EditText
+        android:id="@+id/txtsubject_f_contact"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailSubject"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Message:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <EditText
+        android:id="@+id/txtmsg_f_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="10"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="start|top"
+        />
+    <Button
+        android:id="@+id/btn_clear_frag_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/colorSecondary"
+        android:background="@drawable/mybutton_theme_red"
+        android:text="Clear Fields"/>
+    <Button
+        android:id="@+id/btn_send_frag_contact"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondary"
+        android:background="@drawable/mybutton_theme"
+        android:text="Send"/>
+
+</LinearLayout>
